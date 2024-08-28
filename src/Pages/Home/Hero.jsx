@@ -15,7 +15,7 @@ const Hero = () => {
         ></video>
         <div className="absolute top-0 left-0 w-full h-full opacity-[0.8] bg-[black]"></div>
         <div className="relative w-full flex flex-col gap-[2rem] text-center items-center justify-center h-[100%]">
-          <img src={logo} alt="logo" className="w-[10%] max-[600px]:w-[20%]" />
+          <img src={logo} alt="logo" className="w-[10%] max-[600px]:w-[20%] max-[500px]:w-[25%]" />
           <h1 className="text-[7rem] font-medium text-[white] max-xl:text-[5rem] max-md:text-[4rem] max-sm:text-[3rem] max-[400px]:text-[2.5rem]">
             Unforgettable Celebrations Moment
           </h1>

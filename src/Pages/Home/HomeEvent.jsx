@@ -1,5 +1,7 @@
 // import React from "react";
 
+import Event from "../../Components/Events/Event";
+
 const HomeEvent = () => {
   return (
     <>
@@ -9,6 +11,9 @@ const HomeEvent = () => {
           <p className="text-[2rem] font-medium">
             We throw most lit bollywood nightclub and dayclub events across USA.
           </p>
+          <div className="mt-[2rem]">
+            <Event />
+          </div>
         </div>
       </div>
     </>
