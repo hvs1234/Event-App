@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width:1500px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width:1024px) {
+  html {
+    font-size: 50%;
+  }
+}
